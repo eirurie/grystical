@@ -1,0 +1,148 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "exploring"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "5DB98CE6A893D17A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "26141E082E2EF764"
+			subtitle: "Find an Ancient City."
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_city"
+				criterion: ""
+				disable_toast: true
+				icon: "deeperdarker:ancient_vase"
+				id: "7D0DF6F994788B08"
+				title: "Locate Ancient City"
+				type: "advancement"
+			}]
+			title: "Underworld"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["26141E082E2EF764"]
+			description: ["They are dropped by Wardens."]
+			hide: true
+			hide_details_until_startable: true
+			id: "7C785709BBF74EFB"
+			subtitle: "Obtain a Heart of the Deep."
+			tasks: [{
+				disable_toast: true
+				id: "12F7F93C55C136A5"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			title: "Warden"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C785709BBF74EFB"]
+			hide: true
+			hide_details_until_startable: true
+			id: "3E20614B076917CC"
+			subtitle: "Visit the Otherside."
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				disable_toast: true
+				icon: "minecraft:reinforced_deepslate"
+				id: "03FEA39976F67C88"
+				title: "Warp to the Otherside"
+				type: "dimension"
+			}]
+			title: "Otherside"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			icon: "waystones:waystone"
+			id: "04B9A35411C258F3"
+			rewards: [{
+				count: 10
+				id: "25E27646B0026F1F"
+				item: "numismatic-overhaul:bronze_coin"
+				type: "item"
+			}]
+			subtitle: "Locate a Waystone."
+			tasks: [{
+				id: "404C4C28250C13D3"
+				observe_type: 0
+				timer: 0L
+				to_observe: "waystones:waystone"
+				type: "observation"
+			}]
+			title: "Worldhopper"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			id: "05700BD6745C0994"
+			rewards: [{
+				count: 3
+				id: "228F55B3E6659657"
+				item: "numismatic-overhaul:silver_coin"
+				type: "item"
+			}]
+			subtitle: "Visit a Village."
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:bell"
+				id: "2C5B8D1F7350BA7F"
+				structure: "#minecraft:village"
+				title: "Visit a Village"
+				type: "structure"
+			}]
+			title: "Metropolis"
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["05700BD6745C0994"]
+			hide: true
+			hide_details_until_startable: true
+			id: "68CD0A33D868B4BD"
+			subtitle: "Find a Bounty Board."
+			tasks: [{
+				disable_toast: true
+				icon: "bountiful:bountyboard"
+				id: "69DF7DE044B7ACC6"
+				observe_type: 0
+				timer: 0L
+				title: "Find a Bounty Board"
+				to_observe: "bountiful:bountyboard"
+				type: "observation"
+			}]
+			title: "Bounty"
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["05700BD6745C0994"]
+			hide: true
+			hide_details_until_startable: true
+			id: "4B3632DABF83E819"
+			rewards: [{
+				count: 30
+				id: "78C860A876889A48"
+				item: "numismatic-overhaul:bronze_coin"
+				type: "item"
+			}]
+			subtitle: "Craft a Shop."
+			tasks: [{
+				id: "7739C91DA9ACD6A4"
+				item: "numismatic-overhaul:shop"
+				type: "item"
+			}]
+			title: "Salesman"
+			x: 2.5d
+			y: -6.0d
+		}
+	]
+	title: "Exploring"
+}

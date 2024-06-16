@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "4soulstars": {
+      "type": "heracles:item",
+      "item": "bosses_of_mass_destruction:soul_star",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    },
+    "lichtower": {
+      "title": "Locate Lich Tower",
+      "icon": {
+        "item": {
+          "id": "bosses_of_mass_destruction:chiseled_stone_altar",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "structures": "bosses_of_mass_destruction:lich_tower",
+      "type": "heracles:structure"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Locate a Lich Tower."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Combat": {
+        "position": [
+          -102,
+          -230
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bosses_of_mass_destruction:chiseled_stone_altar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Nightfall"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

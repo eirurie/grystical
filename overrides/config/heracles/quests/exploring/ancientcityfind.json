@@ -1,0 +1,55 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "ancientcityadv": {
+      "title": "Find an Ancient City",
+      "icon": {
+        "item": {
+          "id": "deeperdarker:ancient_vase",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "deeperdarker:main/find_ancient_city"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Find an Ancient City."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Exploring": {
+        "position": [
+          -52,
+          -276
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "deeperdarker:ancient_vase",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Underworld"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

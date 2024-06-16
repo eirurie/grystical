@@ -1,0 +1,16 @@
+{
+  "securitySystem": true,
+  "teammateSecurityAccess": true,
+  "allySecurityAccess": true,
+  "maxCurrencyNetworkSize": 2048,
+  "walletCurrencyCapacity": 9000000000000000,
+  "checkCurrencyCapacity": 9000000000000000,
+  "bankCurrencyCapacity": 9000000000000000,
+  "enderBankCurrencyCapacity": 9000000000000000,
+  "tradingPostBroadcastDelayTicks": 200,
+  "tradingPostBroadcast": true,
+  "cheapMoneyBagMinAmount": 10,
+  "cheapMoneyBagMaxAmount": 100,
+  "richMoneyBagMinAmount": 100,
+  "richMoneyBagMaxAmount": 300
+}

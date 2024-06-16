@@ -1,0 +1,177 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "combat"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5FAF71E3C57110CD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "126E66129820202B"
+			subtitle: "Witness a Void Blossom."
+			tasks: [{
+				icon: "bosses_of_mass_destruction:void_lily"
+				id: "141338AA2007AB7B"
+				observe_type: 5
+				timer: 0L
+				title: "Witness a Void Blossom"
+				to_observe: "bosses_of_mass_destruction:void_blossom"
+				type: "observation"
+			}]
+			title: "Meadow"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			icon: "bosses_of_mass_destruction:chiseled_stone_altar"
+			id: "0671D4CD5B21E036"
+			subtitle: "Locate a Lich Tower."
+			tasks: [{
+				disable_toast: true
+				icon: "bosses_of_mass_destruction:chiseled_stone_altar"
+				id: "32E9CAF75EE24ECA"
+				structure: "bosses_of_mass_destruction:lich_tower"
+				title: "Locate Lich Tower"
+				type: "structure"
+			}]
+			title: "Nightfall"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			description: [""]
+			id: "7B1EF54AD2C800BF"
+			subtitle: "Witness a Nether Gauntlet."
+			tasks: [{
+				disable_toast: true
+				icon: "bosses_of_mass_destruction:gauntlet_blackstone"
+				id: "71F75E3031BD483E"
+				observe_type: 5
+				timer: 0L
+				title: "Witness a Nether Gauntlet"
+				to_observe: "bosses_of_mass_destruction:gauntlet"
+				type: "observation"
+			}]
+			title: "Cocytus"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B1EF54AD2C800BF"]
+			hide: false
+			hide_details_until_startable: true
+			id: "16447787BB8FBFD0"
+			rewards: [{
+				count: 10
+				id: "2FA9E40EC745F134"
+				item: "numismatic-overhaul:silver_coin"
+				type: "item"
+			}]
+			subtitle: "Collect a Blazing Eye."
+			tasks: [{
+				consume_items: false
+				disable_toast: true
+				id: "70BC6F2BE909E395"
+				item: "bosses_of_mass_destruction:blazing_eye"
+				type: "item"
+			}]
+			title: "Gauntlet"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			icon: "bosses_of_mass_destruction:obsidilith_end_frame"
+			id: "702DC28FD28C260F"
+			subtitle: "Witness an Obsidilith."
+			tasks: [{
+				disable_toast: true
+				icon: "bosses_of_mass_destruction:obsidilith_end_frame"
+				id: "34153F717CE8312F"
+				observe_type: 0
+				timer: 0L
+				title: "Witness an Obsidilith"
+				to_observe: "bosses_of_mass_destruction:obsidilith"
+				type: "observation"
+			}]
+			title: "Abyss"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["126E66129820202B"]
+			hide: false
+			hide_details_until_startable: true
+			id: "157E9FDE0AF5A9CA"
+			rewards: [{
+				count: 10
+				id: "7B005BA2DD260682"
+				item: "numismatic-overhaul:silver_coin"
+				type: "item"
+			}]
+			subtitle: "Collect a Void Thorn."
+			tasks: [{
+				consume_items: false
+				disable_toast: true
+				id: "52E64C9C9FC1F150"
+				item: "bosses_of_mass_destruction:void_thorn"
+				type: "item"
+			}]
+			title: "Blossom"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0671D4CD5B21E036"]
+			hide: false
+			hide_details_until_startable: true
+			id: "04EECE2E850798FF"
+			rewards: [{
+				count: 10
+				id: "1D49509B1C6EE78D"
+				item: "numismatic-overhaul:silver_coin"
+				type: "item"
+			}]
+			subtitle: "Collect an Ancient Anima."
+			tasks: [{
+				id: "25CBC944505E031D"
+				item: "bosses_of_mass_destruction:ancient_anima"
+				type: "item"
+			}]
+			title: "Lich"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["702DC28FD28C260F"]
+			hide: false
+			hide_details_until_startable: true
+			id: "422E2705B071251C"
+			rewards: [{
+				count: 10
+				id: "7D29A359CF32B7C8"
+				item: "numismatic-overhaul:silver_coin"
+				type: "item"
+			}]
+			subtitle: "Collect an Obsidian Heart."
+			tasks: [{
+				consume_items: false
+				id: "0726EF652E0C6ABF"
+				item: "bosses_of_mass_destruction:obsidian_heart"
+				type: "item"
+			}]
+			title: "Obsidilith"
+			x: 2.5d
+			y: -1.0d
+		}
+	]
+	title: "Combat"
+}

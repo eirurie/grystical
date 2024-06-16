@@ -1,0 +1,60 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "nethergauntletstructure": {
+      "title": "Locate Gauntlet Arena",
+      "icon": {
+        "item": {
+          "id": "minecraft:polished_blackstone_bricks",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "structures": "bosses_of_mass_destruction:gauntlet_arena",
+      "type": "heracles:structure"
+    },
+    "getancientblackstone": {
+      "type": "heracles:item",
+      "item": "bosses_of_mass_destruction:gauntlet_blackstone",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Mine Ancient Carved Blackstone"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Locate and spawn the Nether Gauntlet."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Combat": {
+        "position": [
+          -102,
+          -203
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bosses_of_mass_destruction:gauntlet_blackstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cocytus"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

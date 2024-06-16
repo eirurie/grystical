@@ -1,0 +1,66 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "obsidilitharena": {
+      "title": "Locate Obsidilith Arena",
+      "icon": {
+        "item": {
+          "id": "bosses_of_mass_destruction:obsidilith_end_frame",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "structures": "bosses_of_mass_destruction:obsidilith_arena",
+      "type": "heracles:structure"
+    },
+    "placeeye": {
+      "block": "bosses_of_mass_destruction:obsidilith_end_frame",
+      "state": {},
+      "title": "Place Eye",
+      "icon": {
+        "item": {
+          "id": "minecraft:ender_eye",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Locate and spawn the Obsidilith."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Combat": {
+        "position": [
+          -102,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bosses_of_mass_destruction:obsidilith_end_frame",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Abyss"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

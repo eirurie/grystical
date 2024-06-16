@@ -1,0 +1,73 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "salvaging": {
+      "block": "zenith:salvaging_table",
+      "state": {},
+      "type": "heracles:block_interaction"
+    },
+    "enchanting": {
+      "item": "minecraft:enchanting_table",
+      "type": "heracles:item_interaction"
+    },
+    "spellbinding": {
+      "block": "spell_engine:spell_binding",
+      "state": {},
+      "type": "heracles:block_interaction"
+    },
+    "reforging": {
+      "block": "zenith:reforging_table",
+      "state": {},
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {
+    "3xp": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
+    },
+    "30bronze": {
+      "item": {
+        "id": "numismatic-overhaul:bronze_coin",
+        "count": 30
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Open every (major) gear table."
+    },
+    "description": [
+      "this is how you make the good shit"
+    ],
+    "groups": {
+      "Combat": {
+        "position": [
+          -150,
+          -37
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:enchanting_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cooking With Gas"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

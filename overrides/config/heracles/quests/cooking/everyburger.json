@@ -1,0 +1,40 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Have every burger."
+    },
+    "description": [
+      "You see, the reference is jacksfilms burher"
+    ],
+    "groups": {
+      "Cooking": {
+        "position": [
+          -105,
+          -38
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "createfood:cheeseburger_onion_bacon_lettuce",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Jackfilm"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "bookmarks": {},
+  "opened_books": {
+    "94935758-e716-422d-b4c5-79abb3dd1e0c": [
+      "victus:journal"
+    ]
+  },
+  "viewed_entries": {
+    "94935758-e716-422d-b4c5-79abb3dd1e0c": {
+      "victus:journal": [
+        "victus:basics/aspect_maintenance",
+        "victus:aspects/cheese",
+        "victus:basics/crafting_aspects",
+        "victus:basics/introduction"
+      ]
+    }
+  }
+}

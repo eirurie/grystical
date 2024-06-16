@@ -1,0 +1,47 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "cooking"
+	group: ""
+	icon: "minecraft:cake"
+	id: "080FE4636F4B14EA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7F5AD5E91F5847A1"
+			subtitle: "Craft a Keg."
+			tasks: [{
+				id: "2AD8D3945EF5D436"
+				item: "brewinandchewin:keg"
+				type: "item"
+			}]
+			title: "Brewery"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F5AD5E91F5847A1"]
+			hide: true
+			hide_details_until_startable: true
+			id: "4ACC66E7090A9687"
+			rewards: [{
+				count: 15
+				id: "243EF926E4ED8ECE"
+				item: "numismatic-overhaul:bronze_coin"
+				type: "item"
+			}]
+			subtitle: "Make Beer."
+			tasks: [{
+				id: "5D0171214C7403C6"
+				item: "brewinandchewin:beer"
+				type: "item"
+			}]
+			title: "Patience"
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "Cooking"
+}

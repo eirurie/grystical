@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "warden"
+  ],
+  "tasks": {
+    "dimension_otherside": {
+      "icon": {
+        "item": {
+          "id": "minecraft:sculk",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:overworld",
+      "to": "deeperdarker:otherside",
+      "title": "Enter the portal",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "15bronze": {
+      "item": {
+        "id": "numismatic-overhaul:bronze_coin",
+        "count": 15
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Light and enter the portal in the Ancient City."
+    },
+    "description": [
+      "**/a/Clear/a/ the /3/Sculk Vein/3/ off the /9/portal/9/ first.**"
+    ],
+    "groups": {
+      "Exploring": {
+        "position": [
+          82,
+          -276
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:reinforced_deepslate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Otherside"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

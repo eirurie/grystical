@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "ancientcityfind"
+  ],
+  "tasks": {
+    "heartofthedeep": {
+      "type": "heracles:item",
+      "item": "deeperdarker:heart_of_the_deep",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Acquire: Heart of the Deep (dropped by Wardens)"
+    }
+  },
+  "rewards": {
+    "10silver": {
+      "item": {
+        "id": "numismatic-overhaul:silver_coin",
+        "count": 10
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Obtain a Heart of the Deep."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Exploring": {
+        "position": [
+          15,
+          -276
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "deeperdarker:heart_of_the_deep",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Warden"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS",
+    "unlockNotification": false
+  }
+}

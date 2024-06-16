@@ -1,0 +1,15 @@
+[general]
+gracePeriod = 6000
+captchaTime = 15
+captchaCooldown = 900
+[math]
+additionMaxX = 100
+additionMaxY = 100
+subtractionMaxX = 100
+subtractionMaxY = 100
+multiplicationMaxX = 30
+multiplicationMaxY = 20
+divisionMaxX = 100
+divisionMaxY = 100
+[text]
+textCaptchaWords = ["diamond", "iron", "gold", "emerald", "lapis", "coal", "redstone", "nether", "creeper", "skeleton", "spider", "zombie", "enderman", "endermite", "slime", "ghast", "pig", "cow", "sheep", "chicken", "rabbit", "mooshroom", "villager", "witch", "wither", "blaze", "guardian", "shulker", "ender dragon", "wither", "drowned", "husk", "stray", "phantom", "zoglin", "piglin", "panda", "bee", "cat", "fox", "ocelot"]

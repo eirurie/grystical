@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "voidblossomarenaentered": {
+      "title": "Locate arena",
+      "icon": {
+        "item": {
+          "id": "bosses_of_mass_destruction:void_blossom",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "structures": "bosses_of_mass_destruction:void_blossom",
+      "type": "heracles:structure"
+    },
+    "voidlilyacquire": {
+      "type": "heracles:item",
+      "item": "bosses_of_mass_destruction:void_lily",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Locate a Void Blossom."
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Combat": {
+        "position": [
+          -102,
+          -257
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bosses_of_mass_destruction:void_lily",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Meadow"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

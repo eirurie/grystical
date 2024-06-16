@@ -1,0 +1,62 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "waystones": {
+      "icon": {
+        "item": {
+          "id": "waystones:waystone",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "stat": "waystones:waystone_activated",
+      "target": 2,
+      "title": "Activate Waystones",
+      "type": "heracles:stat"
+    }
+  },
+  "rewards": {
+    "15bronze": {
+      "item": {
+        "id": "numismatic-overhaul:bronze_coin",
+        "count": 15
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Activate two waystones."
+    },
+    "description": [
+      "this is just like. Travelling"
+    ],
+    "groups": {
+      "Exploring": {
+        "position": [
+          -67,
+          -54
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "waystones:waystone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wormhole"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}
